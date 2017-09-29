@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         String url = "http://www.streetmessenger.io/";
         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+        finish();
     }
 }
